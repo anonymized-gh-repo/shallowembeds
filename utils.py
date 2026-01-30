@@ -1,3 +1,5 @@
+from typing import Any
+
 class TOC:
     def __init__(self, object, md: str | None = None, num_sep=2) -> None:
         self.num_sep = num_sep

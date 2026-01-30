@@ -4,10 +4,11 @@ from utils import TOC
 # prepare placeholder for table of contents
 toc = TOC(st.sidebar.empty())
 
-st.markdown ("""## Efficient Learning of Sparse Representations from Interactions
+st.markdown ("""## Language Embeddings Meet Shallow Autoencoders
 
 This mini-page accompanies our paper [link TBA] and provides additional materials that 
-could not fit into the manuscript. The source code is at https://github.com/anonymized-gh-repo/shallowembeds. 
+could not fit into the manuscript. The source code is at 
+https://github.com/anonymized-gh-repo/shallowembeds. 
 The source code for this site is in the branch "demo".
 """)
 
