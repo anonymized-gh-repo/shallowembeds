@@ -12,7 +12,30 @@ https://github.com/anonymized-gh-repo/shallowembeds.
 The source code for this site is in the branch "demo".
 """)
 
-st.markdown("""### Abstract""")
+st.markdown("""### Abstract
+
+Shallow autoencoders are appealing recommenders due to their simplicity, 
+scalability, and competitive retrieval quality, but they struggle in strict 
+cold-start settings where new items have no interactions. We propose an 
+inductive shallow autoencoder that leverages item side information 
+(language embeddings) by fixing the decoder to item features and learning 
+only an encoder in the same semantic space. To prevent trivial self-reconstruction 
+without enforcing a hard zero diagonal, we introduce diagonal gating: a leave-one-item-out 
+objective that blocks the self-copy shortcut only for the item being updated while 
+retaining context from the rest of the user history. An efficient ALS-style optimization 
+trains the model. Experiments on three real-world benchmarks show consistent gains 
+over strong cold-start baselines, including other shallow autoencoders, and support 
+lightweight (cross-domain) semantic user modeling.
+
+""")
+
+st.markdown("""### Appendix
+
+We provide additional experimental results, detailed descriptions of the datasets and baselines, implementation details, and a complexity analysis in the appendix.
+
+[<img src="https://raw.githubusercontent.com/anonymized-gh-repo/shallowembeds/main/appendix_thumbnail.jpg" width="400px">](https://raw.githubusercontent.com/anonymized-gh-repo/shallowembeds/main/appendix.pdf)
+
+""", unsafe_allow_html=True)
 
 st.markdown("""### Navigation""")  
 
