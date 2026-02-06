@@ -37,7 +37,7 @@ We provide additional experimental results, detailed descriptions of the dataset
 
 """, unsafe_allow_html=True)
 
-st.markdown("""### Navigation""")  
+st.markdown("""### Live Demo""")  
 
 st.markdown("""### Citation""")  
 st.markdown("""TBA""")  
@@ -46,6 +46,8 @@ st.markdown("""### Acknowledgments""")
 st.markdown("""
 Book cover images are provided by the Open Library Covers API. © Open Library. https://openlibrary.org
 """)
-
+st.markdown("""
+Movie poster images are provided by The Movies Database API. © TMDB https://www.themoviedb.org 
+""")
 toc()
 

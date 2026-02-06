@@ -12,6 +12,9 @@ import textwrap
 import torch
 from scipy import sparse
 import scipy
+import requests
+
+TOKEN = st.secrets["TMDB_TOKEN"]
 
 PALETTE = [
     "#E6194B",  # vivid red
@@ -46,6 +49,26 @@ def load_idx():
 def get_test_users():
     X = sparse.load_npz("data/gb10_test_users.npz")
     return X[::-1]
+
+@st.cache_data
+def get_movie_poster(title):
+    search_url = "https://api.themoviedb.org/3/search/movie"
+    headers = {"Authorization": f"Bearer {TOKEN}"}
+
+    r = requests.get(search_url, headers=headers, params={"query": title})
+    data = r.json()
+
+    if not data["results"]:
+        return None
+
+    movie = data["results"][0]
+    poster_path = movie.get("poster_path")
+
+    if not poster_path:
+        print(f"Fail for movie {title}")
+        return None
+
+    return f"https://image.tmdb.org/t/p/w500{poster_path}"
 
 @st.cache_data
 def get_A():
