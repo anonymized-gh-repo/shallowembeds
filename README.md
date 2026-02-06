@@ -1,6 +1,6 @@
 # Language Embeddings Meet Shallow Autoencoders
 
-Official repository for the paper "Language Embeddings Meet Shallow Autoencoders", currently under review art **THE ACM UMAP 2026 Conference** - *Short Paper Track*.
+Official repository for the paper "Language Embeddings Meet Shallow Autoencoders", currently under review at **THE ACM UMAP 2026 Conference** - *Short Paper Track*.
 
 ## Overview
 
