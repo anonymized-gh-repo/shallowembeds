@@ -31,7 +31,7 @@ lightweight (cross-domain) semantic user modeling.
 
 st.markdown(toc.append_md("""### Appendix
 
-We provide additional experimental results, detailed descriptions of the datasets and baselines, implementation details, and a complexity analysis in the <a href="results" target="_self">appendix</a>. 
+We provide additional experimental results, detailed descriptions of the datasets and baselines, implementation details, and a complexity analysis in the <a href="appendix" target="_self">appendix</a>. 
 Alterantively, you can download the appendix in pdf by click on image bellow.
 
 [<img src="https://raw.githubusercontent.com/anonymized-gh-repo/shallowembeds/main/appendix_thumbnail.jpg" width="400px">](https://raw.githubusercontent.com/anonymized-gh-repo/shallowembeds/main/appendix.pdf)
