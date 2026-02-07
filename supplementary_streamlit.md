@@ -50,7 +50,7 @@ As baselines to compare our models, we considered the following:
 
 - **CCFCRec (Zhou et al., 2023):** A contrastive learning-based framework proposed for addressing cold-start recommendation challenges. This framework leverages co-occurrence collaborative signals within warm training data to mitigate the problem of unclear collaborative embeddings for recommending cold-start items. The experimental setting follows Section 4.1 of the original paper and the implementation adapts the source code of the authors (Original code: https://github.com/zzhin/CCFCRec).
 
-- **TEASER (De et al., 2022):** A hybrid shallow autoencoder-based recommender system that combines the strengths of collaborative and content-based filtering. It utilizes implicit feedback interaction data to learn item similarities from attributes. The method is particularly suited for addressing the cold-start problem, as it can leverage item metadata alone to make recommendations in the absence of sufficient user interaction data. We implement the model with PyTorch as the backend, considering only side information for items.
+- **TEASER (De Pauw et al., 2022):** A hybrid shallow autoencoder-based recommender system that combines the strengths of collaborative and content-based filtering. It utilizes implicit feedback interaction data to learn item similarities from attributes. The method is particularly suited for addressing the cold-start problem, as it can leverage item metadata alone to make recommendations in the absence of sufficient user interaction data. We implement the model with PyTorch as the backend, considering only side information for items.
 
 - **LAE   (Linear Autoencoder) (Moon et al., 2023):** A simple linear autoencoder for abalation  without any constraints or diagonal gating.
 
@@ -340,7 +340,7 @@ Bellow we enumerate the Topic-dictionary based on MovieLens:
 <li><strong>Chen et al.</strong> (2019). Deep autoencoders in pattern recognition: a survey.</li>
 <li><strong>Chiang et al.</strong> (2018). Using side information to reliably learn low-rank matrices from missing and corrupted observations.</li>
 <li><strong>Chollet et al.</strong> (2015). Keras.</li>
-<li><strong>De et al.</strong> (2022). Modelling users with item metadata for explainable and interactive recommendation.</li>
+<li><strong>De Pauw et al.</strong> (2022). Modelling users with item metadata for explainable and interactive recommendation.</li>
 <li><strong>Dhamani</strong> (2021). Goodreads 100K books.</li>
 <li><strong>Du et al.</strong> (2020). How to learn item representation for cold-start multimedia recommendation?.</li>
 <li><strong>Duricic et al.</strong> (2018). Trust-based collaborative filtering: Tackling the cold start problem using regular equivalence.</li>
