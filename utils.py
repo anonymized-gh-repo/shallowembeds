@@ -298,6 +298,7 @@ class TOC:
     def append_md(self, md: str) -> None:
         headers = [(x.split(" ")[0], " ".join(x.split(" ")[1:]), " ".join(x.split(" ")[1:]).lower().replace(" ", "-"))  for x in md.split("\n") if x.startswith("#")]
         self.toc += [f"{'&nbsp;'*self.num_sep*len(x)}[{y}](#{z})" for x,y,z in headers]
+        return md
 
     def append(self, object: Any, name:str, anchor:str, indent:int=0):
         if object:

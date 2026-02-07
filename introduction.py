@@ -12,7 +12,7 @@ https://github.com/anonymized-gh-repo/shallowembeds.
 The source code for this site is in the branch "demo".
 """)
 
-st.markdown("""### Abstract
+st.markdown(toc.append_md("""### Abstract
 
 Shallow autoencoders are appealing recommenders due to their simplicity, 
 scalability, and competitive retrieval quality, but they struggle in strict 
@@ -27,22 +27,27 @@ trains the model. Experiments on three real-world benchmarks show consistent gai
 over strong cold-start baselines, including other shallow autoencoders, and support 
 lightweight (cross-domain) semantic user modeling.
 
-""")
+"""))
 
-st.markdown("""### Appendix
+st.markdown(toc.append_md("""### Appendix
 
-We provide additional experimental results, detailed descriptions of the datasets and baselines, implementation details, and a complexity analysis in the appendix.
+We provide additional experimental results, detailed descriptions of the datasets and baselines, implementation details, and a complexity analysis in the <a href="results" target="_self">appendix</a>. 
+Alterantively, you can download the appendix in pdf by click on image bellow.
 
 [<img src="https://raw.githubusercontent.com/anonymized-gh-repo/shallowembeds/main/appendix_thumbnail.jpg" width="400px">](https://raw.githubusercontent.com/anonymized-gh-repo/shallowembeds/main/appendix.pdf)
 
-""", unsafe_allow_html=True)
+"""), unsafe_allow_html=True)
 
-st.markdown("""### Live Demo""")  
+st.markdown(toc.append_md("""### Live Demo
 
-st.markdown("""### Citation""")  
+In <a href="demo" target="_self">Live Demo</a>, you can discover topics, interactions and recommendations 
+for selected cluster/user.
+
+"""), unsafe_allow_html=True)
+st.markdown(toc.append_md("""### Citation"""))  
 st.markdown("""TBA""")  
 
-st.markdown("""### Acknowledgments""")
+st.markdown(toc.append_md("""### Acknowledgments"""))
 st.markdown("""
 Book cover images are provided by the Open Library Covers API. © Open Library. https://openlibrary.org
 """)

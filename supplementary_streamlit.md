@@ -377,11 +377,11 @@ Bellow we enumerate the Topic-dictionary based on MovieLens:
 <li><strong>Schein et al.</strong> (2001). Generative models for cold-start recommendations.</li>
 <li><strong>Sedhain et al.</strong> (2015). Autorec: Autoencoders meet collaborative filtering.</li>
 <li><strong>Sethi et al.</strong> (2021). Cold start in recommender systems—A survey from domain perspective.</li>
-<li><strong>Spiš{\'a}k et al.</strong> (2023). Scalable approximate nonsymmetric autoencoder for collaborative filtering.</li>
+<li><strong>Spišák et al.</strong> (2023). Scalable approximate nonsymmetric autoencoder for collaborative filtering.</li>
 <li><strong>Steck et al.</strong> (2021). Deep learning for recommender systems: A Netflix case study.</li>
 <li><strong>Steck</strong> (2019). Embarrassingly shallow autoencoders for sparse data.</li>
 <li><strong>Steck</strong> (2020). Autoencoders that don't overfit towards the identity.</li>
-<li><strong>Tak{\'a}cs et al.</strong> (2011). Applications of the conjugate gradient method for implicit feedback collaborative filtering.</li>
+<li><strong>Takács et al.</strong> (2011). Applications of the conjugate gradient method for implicit feedback collaborative filtering.</li>
 <li><strong>Truong et al.</strong> (2021). Bilateral variational autoencoder for collaborative filtering.</li>
 <li><strong>Tu et al.</strong> (2019). From fingerprint to footprint: Cold-start location recommendation by learning user interest from app data.</li>
 <li><strong>Vančura et al.</strong> (2021). Deep variational autoencoder with shallow parallel path for top-N recommendation (VASP).</li>
